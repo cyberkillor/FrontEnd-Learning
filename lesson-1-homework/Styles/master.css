@@ -1,0 +1,7 @@
+select, input{
+    padding: 0;
+    margin: -1px;
+    border: solid 1px;
+    width: 10%;
+    height: 2%;
+}
