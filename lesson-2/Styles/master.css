@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+header {
+    background: black;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.header_left{
+    color: white;
+    float: left;
+    padding: 5px;
+    font-weight: lighter;
+    font-size: smaller;
+}
+.header_right{
+    color: white;
+    float: right;
+    padding: 5px;
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+#header_border1{
+    border-right: darkslategrey solid 1px;
+}
+#header_border2{
+    border-left: darkslategrey solid 1px;
+}
+
+main {
+    padding-left: 10%;
+    padding-right: 10%;
+    border: blueviolet 1px;
+}
+
+main::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+main > div {
+    float: left;
+    width: 100px;
+    height: 100%;
+    padding: 5px;
+    position: relative;
+
+}
+
+.center {
+    width: 56%;
+    left: 11%;
+    background: grey;
+}
+
+.left {
+    width: 10%;
+    right: 60%;
+    /*margin-left: -100%;*/
+    /*left: -140px;*/
+}
+.right{
+    width: 30%;
+    left: 1%;
+    /*margin-right: -100%;*/
+}
+
+#cover{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.navigation{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: normal;
+    font-size: large;
+    border: none;
+    background-color: transparent;
+    margin: 1px 0;
+
+}
+.navigation:hover{
+    background-color: red;
+    color: white;
+}
+.navigation:focus{
+    background-color: red;
+    color: white;
+}
+#search_content{
+    width: 75%;
+    height: 30px;
+    padding: 7px;
+    margin: 0;
+    background-color: whitesmoke;
+    border: none;
+    float: left;
+    border-radius: 5px 0 0 5px;
+}
+#search_button{
+    padding: 7px;
+    height: 44px;
+    width: 19%;
+    margin: 0;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    float: left;
+    border-radius: 0 5px 5px 0;
+}
+
+.log_module{
+    margin-top: 16px;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+.log_inner{
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    font-size: small;
+    color: grey;
+}
+#log_button{
+    border: none;
+    background-color: red;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+ul{
+    display: block;
+    margin-top: 15px;
+    align-content: center;
+}
+#qq{
+    background-image: url(//sf3-scmcdn-tos.pstatp.com/obj/goofy/toutiao/toutiao_web_pc/svgs/icon_qq_pc.83d80076.svg),none;
+    background-repeat: no-repeat;
+}
+#wechat{
+    background-image: url(//sf3-scmcdn-tos.pstatp.com/obj/goofy/toutiao/toutiao_web_pc/svgs/icon_weixin_pc.7eab8c3d.svg),none;
+    background-repeat: no-repeat;
+}
+.sns{
+    display: inline-block;
+    position: relative;
+    width: 36px;
+    height: 58px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100% 36px;
+}
+.sns>span{
+    position: absolute;
+    left: 6px;
+    top: 41px;
+    width: 24px;
+    font-size: 12px;
+    line-height: 17px;
+    color: #777;
+}
+
+.right_navigation{
+    margin-top: 16px;
+    border-top: solid red 1px;
+    background-color: whitesmoke;
+}
+.right_navigation>div{
+    padding: 10px;
+}
+.right_navigation>div>ul>li>a{
+    color: grey;
+    font-size: smaller;
+}
+.right_navigation>div>ul>li{
+    display: list-item;
+    float: left;
+    list-style-type: none;
+    padding: 0 5px 5px 0;
+    margin: 5px;
+}
+#last{
+    border:none;
+}
+#last>ul{
+    padding: 10px;
+}
+#last>ul>li{
+    display: list-item;
+    list-style-type: none;
+    vertical-align: center;
+}
+#last>ul>li>a{
+    color: grey;
+    font-size: smaller;
+}
+#gongan{
+    vertical-align: middle;
+    height: 19px;
+}
