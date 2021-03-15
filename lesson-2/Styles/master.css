@@ -55,7 +55,6 @@ main > div {
 .center {
     width: 56%;
     left: 11%;
-    background: grey;
 }
 
 .left {
@@ -147,10 +146,12 @@ ul{
 #qq{
     background-image: url(//sf3-scmcdn-tos.pstatp.com/obj/goofy/toutiao/toutiao_web_pc/svgs/icon_qq_pc.83d80076.svg),none;
     background-repeat: no-repeat;
+    margin-right: 10px;
 }
 #wechat{
     background-image: url(//sf3-scmcdn-tos.pstatp.com/obj/goofy/toutiao/toutiao_web_pc/svgs/icon_weixin_pc.7eab8c3d.svg),none;
     background-repeat: no-repeat;
+    margin-left: 10px;
 }
 .sns{
     display: inline-block;
@@ -208,4 +209,39 @@ ul{
 #gongan{
     vertical-align: middle;
     height: 19px;
+}
+
+.news_block{
+    border-bottom: lightgrey solid 1px;
+    padding: 5px 5px;
+    margin-top: 10px;
+}
+.news_index{
+    margin-top: 10px;
+}
+.info{
+    vertical-align: middle;
+    color:grey;
+    font-size: smaller;
+}
+.policy{
+    vertical-align: middle;
+    border: lightgreen solid 1px;
+    color: lightgreen;
+    font-size: xx-small;
+}
+.animal{
+    vertical-align: middle;
+    border: pink solid 1px;
+    color: pink;
+    font-size: xx-small;
+}
+.news_img{
+    width: 25%;
+    margin-right: 10px;
+    float: left;
+}
+.news_content {
+    display: inline-block;
+    margin-top: 2.5%;
 }
