@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: grey;
+}
+#container{
+    position: fixed;
+    left: 25%;
+    width: 50%;
+    background-color: white;
+    height: 80%;
+    top: 0;
+    border: black solid 1px;
+}
+
+header{
+    position: fixed;
+    width: 50%;
+    top: 0;
+    height: 8%;
+    background-color: lightgrey;
+}
+.title{
+    padding: 10px;
+}
+
+#left_slider{
+    position: fixed;
+    width: 15%;
+    height: 50%;
+    top: 8%;
+    background-color: ghostwhite;
+}
+#right_slider{
+    position: fixed;
+    width: 15%;
+    height: 50%;
+    top: 8%;
+    background-color: ghostwhite;
+    right: 25%;
+}
+#main_content{
+    position: fixed;
+    width: 20%;
+    left: 40%;
+    top: 8%;
+    height: 70%;
+    background-color: lightblue;
+}
+
+footer{
+    position: fixed;
+    width: 50%;
+    bottom: 20%;
+    height: auto;
+    background-color: lightgrey;
+}
