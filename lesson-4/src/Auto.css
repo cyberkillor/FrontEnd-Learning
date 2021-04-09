@@ -1,0 +1,104 @@
+.big{
+    margin: auto 500px;
+    width: 400px;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    top:300px
+}
+
+.mid{
+    position: absolute;
+    width: 1600px;
+    height: 250px;
+    transition: 1s;
+}
+ul{
+    padding: 0;
+}
+li{
+    padding: 0;
+    margin: 0;
+    z-index: 0;
+    list-style-type:none
+}
+img{
+    width: 400px;
+}
+.pic1{
+    width: 400px;
+    height: 250px;
+    float: left;
+    background-color: red;
+}
+
+.pic2{
+    width: 400px;
+    height: 250px;
+    float: left;
+    background-color: blue;;
+}
+
+.pic3{
+    width: 400px;
+    height: 250px;
+    float: left;
+    background-color: green;
+}
+
+.pic4{
+    width: 400px;
+    height: 250px;
+    float: left;
+    background-color: yellow;
+}
+
+.spot_block{
+    bottom: 0;
+    right: 25%;
+    position: absolute;
+}
+
+.spot{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    top: 0px;
+    right: 0px;
+    float: right;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align:center;
+    color:#fff;
+}
+
+.left::before{
+    cursor: pointer;
+    content:"<";
+    display:block;
+    width:30px;
+    height:60px;
+    position:absolute;
+    top:40%;
+    left:0px;
+    text-align:center;
+    line-height:60px;
+    font-size:30px;
+    color:#fff;
+}
+
+.right::before{
+    cursor: pointer;
+    content:">";
+    display:block;
+    width:30px;
+    height:60px;
+    position:absolute;
+    top:40%;
+    right:-1px;
+    text-align:center;
+    line-height:60px;
+    font-size:30px;
+    color:#fff;
+}
