@@ -1,0 +1,114 @@
+html {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+/*顶栏*/
+.header{
+    position: fixed;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 70px;
+    background: black;
+    border-bottom: 1px solid rgba(34, 90, 89, 0.2);
+    z-index: 1000;
+}
+.header-content{
+    height: 50px;
+    width: 100px;
+    background-color: lightgreen;
+    margin: auto 10px;
+    border-radius: 10px;
+}
+.like{
+    height: 50px;
+    width: 50px;
+    background-color: orangered;
+    margin: auto 10px;
+    border-radius: 10px;
+}
+/* 侧边栏 */
+.left{
+    position: fixed;
+    display: flex;
+    left: 0;
+    top: 70px;
+    bottom: 140px;
+    width: 2%;
+    background: whitesmoke;
+    /*border-right: 1px solid whitesmoke;*/
+    z-index: 1000;
+}
+
+/* 底部栏 */
+.bottom{
+    position: fixed;
+    display: flex;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 140px;
+    background-color: mediumblue;
+    z-index: 1000;
+}
+
+.middle{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    top: 70px;
+    left: 2%;
+    right: 0;
+}
+.mid-content1, .mid-content2{
+
+}
+.mid-content1{
+    background-color: darkslategrey;
+}
+.mid-content2{
+    margin: 6px;
+    background-color: ghostwhite;
+    height: auto;
+}
+.cover{
+    background-color: yellow;
+    height: 150px;
+    width: 150px;
+    margin: 50px;
+    border-radius: 20px;
+}
+.song{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+span{
+    width: 25%;
+}
+.ccs{
+    width: auto;
+    padding: 3px;
+    border: 1px solid black;
+}
+@media (max-width: 768px) {
+    .hidden{
+        display: none;
+    }
+}
